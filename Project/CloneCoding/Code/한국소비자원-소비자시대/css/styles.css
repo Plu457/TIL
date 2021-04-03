@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+
+/* layout */
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.25em;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.innerHeader .util ul {
+    width: 218px;
+    height: 100%;
+    float: left;
+    line-height: 90px;
+    margin-left: 2%;
+}
+
+.innerHeader .util ul li {
+    float: left;
+    padding: 0 15px;
+}
+
+.innerHeader .logo {
+    width: 270px;
+    line-height: 90px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.innerHeader .logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.related {
+    width: 270px;
+    float: right;
+}
+
+.related a {
+    display: block;
+    float: left;
+    margin-top: 23px;
+    padding: 10px 20px;
+    border: 1px solid #Ddd;
+}
+
+/* Section.main */
+.main {
+    width: 100%;
+    height: auto;
+    background-image: url(../img/main_5month_02.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.main .inner {
+    width: 1400px;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.main .inner .mainTitle {
+    width: 653px;
+    height: auto;
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+
+.main .inner .mainTitle h2 {
+    font-size: 50px;
+    line-height: 1.3em;
+    color: #222;
+    margin-bottom: 30px;
+}
+
+.main .inner .mainTitle p {
+    font-size: 19px;
+    line-height: 1.6em;
+    margin-bottom: 50px;
+}
+
+.main .inner .mainTitle a {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 18px;
+    color: #fff;
+    background: #000;
+}
+
+.may {
+    position: absolute;
+    width: 185px;
+    height: 300px;
+    top: 50%;
+    right: 300px;
+    transform: translateY(-50%);
+}
+
+.may > a {
+    display: block;
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    background: #f57454;
+    text-align: center;
+    margin: 30px;
+}
+
+.may strong {
+    font-style: italic;
+    font-size: 55px;
+    letter-spacing: -2px;
+}
+
+.may p {
+    color: #fff;
+}
+
+.may ul {
+    width: 185px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.may ul li {
+    line-height: 40px;
+}
+
+.may ul li a {
+    display: block;
+    color: #333;
+    font-size: 10px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+}
+
+.may h3 {
+    font-size: 40px;
+}
+
+/* section.happy */
+.happy {
+    width: 1400px;
+    margin: 0 auto;
+    color: #333;
+    margin-top: 100px;
+}
+
+.happy h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.happy h2 .colorText {
+    color: #f57260;
+}
+
+.happy ul {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.happy ul li {
+    float: left;
+    width: 32.2%;
+    margin-right: 1.7%;
+    margin-bottom: 80px;
+    background: #c5cdbe;
+}
+
+.happy ul li:nth-child(2) {
+    background: #e59690;
+}
+
+.happy ul li:nth-child(3) {
+    margin-right: 0;
+    background: #dfcfc0;
+}
+
+.happy ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 50px 0 50px 50px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.happy ul li p {
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+.happy ul li h3 {
+    font-size: 26px;
+    margin-bottom: 70px;
+}
+
+.happy ul li p.img {
+    width: 380px;
+    height: 250px;
+    margin-right: 0;
+    float: right;
+    overflow: hidden;
+}
+
+.happy ul li p.img img {
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.happy ul li a::after {
+    content: '';
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 63%;
+    height: 2px;
+    background: rgba(237, 237, 233, 0.42);
+}
+
+.happy ul li:nth-child(2) a::after {
+    width: 60%;
+}
+
+.happy ul li:nth-child(3) a::after {
+    width: 43%;
+}
+
+.happy ul li a:hover .img img {
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+/* section.smart */
+.smart {
+    width: 100%;
+    height: auto;
+    background-image: url(../img/section.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+}
+
+.smart .inner {
+    width: 1400px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.smart .inner h2 {
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.smart .inner h2 .colorText2 {
+    color: #425ca6;
+}
+
+.smart .inner ul {
+    width: 30%;
+    float: left;
+}
+
+.smart .inner ul li {
+    width: 100%;
+}
+
+.smart .inner ul li a {
+    display: block;
+    width: 100%;
+}
