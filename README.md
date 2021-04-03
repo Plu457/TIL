@@ -18,9 +18,11 @@
 ## CSS
   - Tag-Basic
     * [Selectors And Rank](https://github.com/Plu457/TIL/blob/main/CSS/Tag-Basic/Selectors%20And%20Rank.md)
+    * [Typography Element](https://github.com/Plu457/TIL/blob/main/CSS/Tag-Basic/Typography.md)
     * [Box](https://github.com/Plu457/TIL/blob/main/CSS/Tag-Basic/Box.md)
     * [Inline VS Block](https://github.com/Plu457/TIL/blob/main/CSS/Tag-Basic/Inline%20vs%20Block%20.md)
     * [Float Element](https://github.com/Plu457/TIL/blob/main/CSS/Tag-Basic/Float%20Element.md)
+    * [Position Element](https://github.com/Plu457/TIL/blob/main/CSS/Tag-Basic/Position.md)
 
 ## Project
   - Project
