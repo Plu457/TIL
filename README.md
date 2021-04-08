@@ -11,7 +11,7 @@
     * [Form](https://github.com/Plu457/TIL/blob/main/HTML/Tag-Basic/Form.md)
     * [Table](https://github.com/Plu457/TIL/blob/main/HTML/Tag-Basic/Table.md)
     * [Media](https://github.com/Plu457/TIL/blob/main/HTML/Tag-Basic/Media.md)
-  - [WireFram](https://user-images.githubusercontent.com/53371165/114047395-9ffb7180-98c4-11eb-8d7a-04606a4066c7.jpg)
+  - [WireFram](https://github.com/Plu457/TIL/tree/main/HTML/WireFrame)
 
 ## CSS
   - Tag-Basic
