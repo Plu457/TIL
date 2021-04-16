@@ -1,0 +1,81 @@
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+    background-color: #c07cd1;
+}
+
+.main-slide {
+    position: relative;
+    width: 754px;
+    height: 292px;
+    margin: 115px auto 0;
+}
+
+.main-slide .main-next,
+.main-slide .main-prev {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: all 0.6s;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-slide .main-next:hover, 
+.main-slide .main-prev:hover  {
+    opacity: 1;
+    background-color: white;
+}
+
+.main-slide .main-prev {
+    left: -60px;
+}
+
+.main-slide .main-prev::before {
+    content: " < ";
+}
+
+.main-slide .main-next {
+    right: -60px;
+}
+
+.main-slide .main-next::before {
+    content: " > ";
+}
+
+.main-slide > ul {
+    list-style: none;
+    position: relative;
+    width: 754px;
+    height: 292px;
+    margin: 0;
+    padding: 0;
+}
+
+.main-slide > ul > li {
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
+    left: 377px;
+    top: 146px;
+    width: 0;
+    margin: 0;
+    padding: 0;
+    border: 3px solid white;
+    background-color: #333;
+    cursor: pointer;
+}
+
+.main-slide > ul > li > img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
