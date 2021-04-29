@@ -1,0 +1,10 @@
+/* Bullet List */
+.info-list-item {
+  margin: 0.5em 0;
+  display: flex;
+}
+
+.info-list-item::before {
+  content: "☛";
+  margin-right: .5em;
+}
