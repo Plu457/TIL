@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+a.btn1,
+a.btn2,
+a.btn3,
+a.btn4,
+a.btn5 {
+  text-decoration: none;
+  color: #000;
+  font-size: 40px;
+  position: relative;
+  padding-bottom: 10px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+/* a.btn1 */
+a.btn1:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: crimson;
+  height: 2px;
+  width: 0;
+  border-radius: 2px;
+  transition: 0.5s;
+}
+
+a.btn1:hover:before {
+  width: 100%;
+}
+
+/* a.btn2 */
+a.btn2:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: crimson;
+  height: 2px;
+  width: 0;
+  border-radius: 2px;
+  transition: 0.5s;
+}
+
+a.btn2:hover:before {
+  width: 100%;
+}
+
+/* a.btn3 */
+a.btn3:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 2px;
+  background-color: crimson;
+  height: 5px;
+  width: 5px;
+  transition: 0.5s;
+}
+
+a.btn3:hover:before {
+  left: 100%;
+}
+
+/* a.btn4 */
+a.btn4:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  background-color: crimson;
+  height: 2px;
+  width: 0;
+  border-radius: 2px;
+  transform: translateX(-50%);
+  transition: 0.5s;
+}
+
+a.btn4:hover:before {
+  width: 100%;
+}
+
+/* a.btn5 */
+a.btn5:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  background-color: crimson;
+  height: 2px;
+  width: 100%;
+  border-radius: 2px;
+  transform: translateX(-50%);
+  transition: 0.5s;
+}
+
+a.btn5:hover:before {
+  width: 0;
+}
