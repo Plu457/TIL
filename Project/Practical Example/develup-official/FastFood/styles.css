@@ -1,0 +1,58 @@
+h1, p {
+  margin: 0;
+}
+
+body {
+  background-color: #222;
+}
+
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 30px;
+  margin: 20px 0;
+  text-align: right;
+}
+
+.section:nth-child(even) {
+  text-align: left;
+}
+
+.section:nth-child(even) .section-cover {
+  float: right;
+}
+
+.section::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.blue {
+  background-color: dodgerblue;
+  color: yellow;
+}
+
+.red {
+  background-color: orangered;
+  color: yellow;
+}
+
+.yellow {
+  background-color: yellow;
+  color: orangered;
+}
+
+.section h1 {
+  font-size: 80px;
+  line-height: 1;
+  margin-bottom: 30px;
+}
+
+.section-cover {
+  float: left;
+  width: 200px;
+}
