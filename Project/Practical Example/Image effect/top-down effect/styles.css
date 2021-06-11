@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.world {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(90deg, rgb(248, 201, 242), rgb(223, 232, 241));
+  overflow: hidden;
+}
+
+.set {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.photos {
+  position: absolute;
+  display: block;
+}
+
+.p1 {
+  left: 20%;
+  animation: animate 15s linear infinite;
+  animation-delay: -7s;
+  width: 200px;
+  height: 200px;
+  border-radius: 70%;
+  overflow: hidden;
+}
+.p1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.p2 {
+  left: 50%;
+  animation: animate 20s linear infinite;
+  animation-delay: -5s;
+  width: 200px;
+  height: 200px;
+  border-radius: 70%;
+  overflow: hidden;
+}
+.p2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.p3 {
+  left: 70%;
+  animation: animate 20s linear infinite;
+  animation-delay: 0s;
+  width: 200px;
+  height: 200px;
+  border-radius: 70%;
+  overflow: hidden;
+}
+.p3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.p4 {
+  left: 0%;
+  animation: animate 15s linear infinite;
+  animation-delay: -5s;
+  width: 200px;
+  height: 200px;
+  border-radius: 70%;
+  overflow: hidden;
+}
+.p4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.p5 {
+  left: 85%;
+  animation: animate 18s linear infinite;
+  animation-delay: -10s;
+  width: 200px;
+  height: 200px;
+  border-radius: 70%;
+  overflow: hidden;
+}
+.p5 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.p6 {
+  left: 40%;
+  animation: animate 13s linear infinite;
+  animation-delay: -5s;
+  width: 200px;
+  height: 200px;
+  border-radius: 70%;
+  overflow: hidden;
+}
+.p6 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.p7 {
+  left: 30%;
+  animation: animate 23s linear infinite;
+  animation-delay: -8s;
+  width: 200px;
+  height: 200px;
+  border-radius: 70%;
+  overflow: hidden;
+}
+.p7 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.p8 {
+  left: 10%;
+  animation: animate 14s linear infinite;
+  animation-delay: 8s;
+  width: 200px;
+  height: 200px;
+  border-radius: 70%;
+  overflow: hidden;
+}
+.p8 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.p9 {
+  left: 65%;
+  animation: animate 8s linear infinite;
+  animation-delay: -5s;
+  width: 200px;
+  height: 200px;
+  border-radius: 70%;
+  overflow: hidden;
+}
+.p9 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.p10 {
+  left: 90%;
+  animation: animate 18s linear infinite;
+  animation-delay: -7s;
+  width: 200px;
+  height: 200px;
+  border-radius: 70%;
+  overflow: hidden;
+}
+.p10 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    top: -10%;
+    transform: translateY(20px) rotate(0deg);
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    transform: translateY(-20px) rotate(45deg);
+  }
+  40% {
+    transform: translateY(-20px) rotate(90deg);
+  }
+  60% {
+    transform: translateY(20px) rotate(180deg);
+  }
+  80% {
+    transform: translateY(-20px) rotate(180deg);
+  }
+
+  100% {
+    top: 110%;
+    transform: translateY(-20px) rotate(225deg);
+  }
+}
+
+.set2 {
+  transform: scale(1.4) rotateY(180deg);
+}
+
+.set3 {
+  transform: scale(0.6) rotateY(180deg);
+}
