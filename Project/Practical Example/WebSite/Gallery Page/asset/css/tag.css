@@ -18,6 +18,10 @@ body {
   padding: 15px;
 }
 
+.fa-reply {
+  color: blue;
+}
+
 .image-gallery {
   width: 100%;
   max-width: 950px;
