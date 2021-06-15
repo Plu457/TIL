@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  margin: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(247, 255, 95, 0.6449930313922444) 0%,
+    rgba(170, 233, 251, 0.9026961126247374) 100%
+  );
+}
+
+div {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #fff, -20px 0 80px rgba(255, 120, 120, 0.8),
+    20px 0 80px rgba(191, 239, 252, 0.8), inset 0 0 50px #fff,
+    inset 50px 0 80px rgba(255, 120, 120, 0.8),
+    inset -50px 0 80px rgba(191, 239, 252, 0.8),
+    inset 50px 0 300px rgba(254, 255, 0, 1),
+    inset -50px 0 300px rgba(191, 239, 252, 0.8);
+  animation: paint 6s linear infinite;
+}
+
+@keyframes paint {
+  50% {
+    box-shadow: 0 0 20px #fff, 20px 0 80px rgba(255, 120, 120, 0.8),
+      -20px 0 80px rgba(191, 239, 252, 0.8), inset 0 0 50px #fff,
+      inset -50px 0 80px rgba(255, 120, 120, 0.8),
+      inset 50px 0 80px rgba(191, 239, 252, 0.8),
+      inset -50px 0 300px rgba(255, 120, 120, 0.6),
+      inset 50px 0 300px rgba(191, 239, 252, 1);
+  }
+}
