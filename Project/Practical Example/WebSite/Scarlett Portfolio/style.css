@@ -160,3 +160,104 @@ main {
 .header__main-nav--links li a:visited::after {
   transform: scaleX(1);
 }
+
+/********************* (max-width: 610px) Mark ********************/
+@media screen and (max-width: 610px) {
+  /********************* Main Nav Header ********************/
+  #header {
+    position: absolute;
+  }
+
+  #header__main-nav {
+    width: 30rem;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: -30rem;
+    background-color: var(--secondary-color);
+    text-align: center;
+  }
+
+  .clicked {
+    left: 55%;
+  }
+
+  .header__main-nav--hamburger {
+    width: 5rem;
+    height: 5rem;
+    position: fixed;
+    top: 2rem;
+    right: 3rem;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    border-radius: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .line {
+    width: 100%;
+    height: 0.3rem;
+    background-color: white;
+    border-radius: 0.2rem;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .header__main-nav--links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .header__main-nav--links li {
+    margin-bottom: 4vh;
+    margin-left: 6vw;
+  }
+
+  .clicked .line-1 {
+    transform: rotateZ(-405deg) translate(-0.7rem, 0.6rem);
+  }
+
+  .clicked .line-2 {
+    opacity: 0;
+  }
+
+  .clicked .line-3 {
+    transform: rotateZ(405deg) translate(-0.8rem, -0.6rem);
+  }
+
+  .header__main-nav--links li {
+    opacity: 0;
+  }
+
+  .header__main-nav--links li:nth-child(1) {
+    transition: all 0.5s ease-in-out 0.2s;
+  }
+
+  .header__main-nav--links li:nth-child(2) {
+    transition: all 0.5s ease-in-out 0.4s;
+  }
+
+  .header__main-nav--links li:nth-child(3) {
+    transition: all 0.5s ease-in-out 0.6s;
+  }
+
+  .header__main-nav--links li:nth-child(4) {
+    transition: all 0.5s ease-in-out 0.8s;
+  }
+
+  .header__main-nav--links li:nth-child(5) {
+    transition: all 0.5s ease-in-out 1s;
+  }
+
+  .header__main-nav--links li:nth-child(6) {
+    transition: all 0.5s ease-in-out 1.2s;
+  }
+
+  .header__main-nav--links li.fade {
+    opacity: 1;
+  }
+}
