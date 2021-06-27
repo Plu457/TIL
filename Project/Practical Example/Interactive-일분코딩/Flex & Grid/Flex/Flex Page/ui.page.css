@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding: 0 1rem;
+}
+.search-form {
+  width: 300px;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: 3rem;
+}
