@@ -27,6 +27,8 @@ https://velog.io/@plu457
 ## Error Resolution
 
 - [Git](https://github.com/Plu457/TIL/tree/main/Error%20Resoultion/Git)
+- [MongoDB](https://github.com/Plu457/TIL/tree/main/Error%20Resolution/MongoDB)
+- [NodeJs](https://github.com/Plu457/TIL/tree/main/Error%20Resolution/Node%20Js)
 
 ## [Book](https://github.com/Plu457/TIL/tree/main/Book)
 
