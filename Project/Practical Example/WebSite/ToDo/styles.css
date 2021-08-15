@@ -1,11 +1,7 @@
 body {
-  background-color: #ecf0f1;
+  background-color: green;
 }
 
-.btn {
-  cursor: pointer;
+.hidden {
+  display: none;
 }
-
-h1 {
-  color: #34495e;
-  transition: color 0.5s ease-in-out;
