@@ -123,3 +123,7 @@ console.log(arr);
 var birthday = '2003-04-25';
 var arr2 = birthday.split('-');
 console.log(arr2);
+
+//* 생성자 함수로 생성하기
+var txt = new String('Pulan');
+console.log(txt);
